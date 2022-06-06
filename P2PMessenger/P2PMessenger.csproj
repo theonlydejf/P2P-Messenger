@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Orekaria.Lib.P2P" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Orekaria.Lib.P2P">
+      <HintPath>lib\Orekaria.Lib.P2P.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
